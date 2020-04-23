@@ -12,5 +12,9 @@ class BankAccount
   def deposit(money)
     @balance += money.to_i
   end
+  
+  def display_balance
+    @balance
+  end
 
 end

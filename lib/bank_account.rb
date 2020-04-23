@@ -9,8 +9,8 @@ class BankAccount
     @status = "open"
   end
   
-  def deposit()
-    
+  def deposit(money)
+    @balance += money.to_i
   end
 
 end
